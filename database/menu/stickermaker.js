@@ -4,38 +4,38 @@ const stickermaker = (prefix, botName, ownerName) => {
 ╿
 ┷┯ *〈 BOT INFO 〉*
    ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 0.0.5
+   ┠≽ *Prefixo* : 「  ${prefix}  」
+   ┠≽ *Criador* : ${ownerName}
+   ┠≽ *Versão* : 0.0.5
    ╿
-┯┷ *〈 ABOUT 〉*
+┯┷ *〈 SOBRE 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Descrição* : Mostrar detalhes do bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuário bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar todos os usuários de bate-papo
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar velocidade de conexão do bot
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Reportar bug ao proprietário do bot
 ╿
 ┷┯ *〈 STICKER MAKER 〉*
    ╽
    ┠≽ *${prefix}sticker*
-   ┃ *Desc* : Make Sticker Image
+   ┃ *Desc* : Faça um Sticker com imagem
    ┠──────────────╼
    ┠≽ *${prefix}stickergif*
-   ┃ *Desc* : Make Sticker Gif/Video
+   ┃ *Desc* : Faça um Sticker animado com Gif/Video
    ┠──────────────╼
    ┠≽ *${prefix}ttp*
-   ┃ *Desc* : Text To Sticker
+   ┃ *Desc* : Texto para o sticker
    ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+   ╰╼≽ *Desenvolvedor © ${botName}`
 }
 exports.stickermaker = stickermaker
