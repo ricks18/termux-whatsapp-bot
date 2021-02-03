@@ -110,7 +110,7 @@ Follow The Steps Below!
 > termux-setup-storage
 (after that tap on permission)
 > apt install git -y
-> git clone https://github.com/NazwaS/termux-whatsapp-bot
+> git clone https://github.com/git-jr/termux-whatsapp-bot
 > cd termux-whatsapp-bot
 > bash install.sh
 ```
@@ -143,7 +143,7 @@ Follow The Steps Below!
 ### Install
 
 ```bash
-> git clone https://github.com/NazwaS/termux-whatsapp-bot
+> git clone https://github.com/git-jr/termux-whatsapp-bot
 > cd termux-whatsapp-bot
 > npm install
 > npm i imgbb-uploader
