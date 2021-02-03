@@ -40,10 +40,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NazwaS/termux-whatsapp-bot.git"
+    "url": "git+https://github.com/git-jr/termux-whatsapp-bot.git"
   },
   "bugs": {
-    "url": "https://github.com/NazwaS/termux-whatsapp-bot/issues"
+    "url": "https://github.com/git-jr/termux-whatsapp-bot/issues"
   },
-  "homepage": "https://github.com/NazwaS/termux-whatsapp-bot#readme"
+  "homepage": "https://github.com/git-jr/termux-whatsapp-bot#readme"
 }
