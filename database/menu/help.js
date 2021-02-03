@@ -2,18 +2,18 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
         return `
 ┏ *〈 ${botName} 〉*
 ╿
-┷┯ *〈 USER INFO 〉*
+┷┯ *〈 INFORMAÇÃO DE USUÁRIO 〉*
    ╽
-   ┠≽ *Name* : ${pushname}
+   ┠≽ *Nome* : ${pushname}
    ┠≽ *XP* : ${reqXp}
    ┠≽ *Money* : ${uangku}
-   ┠≽ *Registered : ✔️
+   ┠≽ *Registrado : ✔️
    ╿
 ┯┷ *〈 BOT INFO 〉*
 ╽
-┠≽ *Prefix* : 「  ${prefix}  」
-┠≽ *Creator* : ${ownerName}
-┠≽ *Version* : 0.0.5
+┠≽ *Prefixo* : 「  ${prefix}  」
+┠≽ *Criador* : ${ownerName}
+┠≽ *Versão* : 0.0.5
 ╿
 ┷┯ *〈 MENU 〉*
    ┠≽ *${prefix}logomakermenu*
