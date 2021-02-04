@@ -383,7 +383,7 @@ async function starts() {
 					ownerB: '[❗] Perintah ini hanya bisa di gunakan oleh owner bot! ❌',
 					admin: '[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌',
 					Badmin: '[❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌',
-                                        daftarB: `──「 AINDA NÃO REGISTRADO 」──\nOlá!\nVocê ainda não se cadastrou, cadastre-se primeiro... \n\nComando: ${prefix}register Nome|idade\nExemplo: ${prefix}register Naruto|16`,
+                                        daftarB: `──「 AINDA NÃO REGISTRADO 」──\nBem vindo ao ParaBot, envie ".help" para obter ajuda!\nVeja mais informações sobre esse bot no vídeo: https://youtu.be/Hiv4U4CR9kg\nCréditos ao criador original: https://github.com/NazwaS/termux-whatsapp-bot\n\nVocê ainda não se cadastrou, cadastre-se primeiro... \n\nComando: ${prefix}register Nome|idade\nExemplo: ${prefix}register Naruto|16`,
 				}
 			}
     			const apakah = ['Ya','Tidak']
