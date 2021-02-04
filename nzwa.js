@@ -383,7 +383,7 @@ async function starts() {
 					ownerB: '[❗] Perintah ini hanya bisa di gunakan oleh owner bot! ❌',
 					admin: '[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌',
 					Badmin: '[❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌',
-                                        daftarB: `──「 AINDA NÃO REGISTRADO 」──\nHalo kak !\nVocê ainda não se cadastrou, cadastre-se primeiro ... \n\nComando : ${prefix}register Nome|idade\nExemplo : ${prefix}register Naruto|16`,
+                                        daftarB: `──「 AINDA NÃO REGISTRADO 」──\nOlá!\nVocê ainda não se cadastrou, cadastre-se primeiro... \n\nComando: ${prefix}register Nome|idade\nExemplo: ${prefix}register Naruto|16`,
 				}
 			}
     			const apakah = ['Ya','Tidak']
@@ -527,11 +527,11 @@ async function starts() {
 			                const uangku = checkATMuser(sender)
                                         await costum(help(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
-                                case '18+menu':
+                                case '18+menu-REMOVED':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(adult(prefix, botName, ownerName), text, tescuk, cr)
                                         break
-                                case 'downloadermenu':
+                                case 'downloadermenu-REMOVED':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(downloader(prefix, botName, ownerName), text, tescuk, cr)
                                         break
@@ -559,7 +559,7 @@ async function starts() {
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(islam(prefix, botName, ownerName), text, tescuk, cr)
                                         break
-                                case 'kerangmenu':
+                                case 'kerangmenu-REMOVED':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(kerang(prefix, botName, ownerName), text, tescuk, cr)
                                         break
@@ -571,7 +571,7 @@ async function starts() {
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(meme(prefix, botName, ownerName), text, tescuk, cr)
                                         break
-                                case 'musicmenu':
+                                case 'musicmenu-REMOVED':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(music(prefix, botName, ownerName), text, tescuk, cr)
                                         break
@@ -587,15 +587,15 @@ async function starts() {
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(search(prefix, botName, ownerName), text, tescuk, cr)
                                         break
-                                case 'soundmenu':
+                                case 'soundmenu-REMOVED':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(sound(prefix, botName, ownerName), text, tescuk, cr)
                                         break
-                                case 'stalkmenu':
+                                case 'stalkmenu-REMOVED':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(stalk(prefix, botName, ownerName), text, tescuk, cr)
                                         break
-                                case 'stayonscreenmenu':
+                                case 'stayonscreenmenu-REMOVED':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(stayonscreen(prefix, botName, ownerName), text, tescuk, cr)
                                         break
@@ -608,7 +608,7 @@ async function starts() {
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(tod(prefix, botName, ownerName), text, tescuk, cr)
                                         break
-                                case 'wibumenu':
+                                case 'wibumenu-REMOVED':
                                         if (!isRegister) return reply(mess.only.daftarB)
                                         await costum(wibu(prefix, botName, ownerName), text, tescuk, cr)
                                         break
