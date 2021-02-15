@@ -11,30 +11,30 @@ const adult = (prefix, botName, ownerName) => {
 ┯┷ *〈 ABOUT 〉*
 ╽
 ┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
+┃ *Desc* : Mostrar detalhes do bot
 ┠──────────────╼
 ┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
+┃ *Desc* : Mostrar usuário bloqueado
 ┠──────────────╼
 ┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
+┃ *Desc* : Mostrar os usuários de bate-papo
 ┠──────────────╼
 ┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
+┃ *Desc* : Mostrar velocidade do bot
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
+┃ *Desc* : Reportar bug ao proprietário do bot
 ╿
 ┷┯ *〈 18+ 〉*
    ╽
    ┠≽ *${prefix}randomhentai*
-   ┃ *Desc* : Sending Random Hentai Image
+   ┃ *Desc* : Envio de imagem aleatória Hentai
    ┠──────────────╼
    ┠≽ *${prefix}nsfwtrap*
-   ┃ *Desc* : Sending Random NSFW Trap Image (nsfw needed)
+   ┃ *Desc* :imagem aleatória de armadilha NSFW (nsfw necessário)
    ┠──────────────╼
    ┠≽ *${prefix}nsfwneko*
-   ┃ *Desc* : Sending Random NSFW Neko Image (nsfw needed)
+   ┃ *Desc* :imagem NSFW Neko aleatória (nsfw necessário)
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}`
 }
